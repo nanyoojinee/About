@@ -1,0 +1,11 @@
+# macOS에서 생성된 .DS_Store 파일 무시
+.DS_Store
+
+# npm 또는 Yarn으로 생성된 디렉토리 및 파일 무시
+node_modules/
+package-lock.json
+yarn.lock
+node_modules/.cache/
+
+# 특정 디렉토리 및 파일 무시
+my-personal-website/src/\352\267\270\354\240\200\353\263\264\352\270\260

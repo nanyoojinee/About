@@ -1,0 +1,19 @@
+my-personal-website/
+  ├── src/
+  │    ├── components/
+  │    │    ├── Header.js
+  │    │    ├── About.js
+  │    │    ├── Portfolio.js
+  │    │    ├── Contact.js
+  │    ├── styles/
+  │    │    ├── GlobalStyles.js
+  │    ├── App.js
+  │    ├── index.js
+  │    └── index.css
+  ├── public/
+  │    ├── index.html
+  │    ├── favicon.ico
+  │    └── manifest.json
+  ├── package.json
+  ├── README.md
+  └── .gitignore
