@@ -41,7 +41,7 @@ function Contact() {
       <p style={{ fontSize: "20px", color: "#d4dbaa" }}>
         nanyoojinee@gmail.com
       </p>
-      <p style={{ fontSize: "15px" }}>©2023-YuJin</p>
+      <p style={{ fontSize: "15px" }}>©2024-YuJin</p>
     </WholeBack>
   );
 }

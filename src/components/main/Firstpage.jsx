@@ -69,7 +69,8 @@ const IntroImage = styled.div`
   height: 38rem;
   margin-top: 1rem;
   margin-bottom: -5rem;
-  background-image: url(${(props) =>props.hovered ? yujinImage : yujinImage2});
+  background-image: url(${(props) =>
+    props.hovered ? yujinImage : yujinImage2});
   background-size: cover;
   animation: ${(props) => (props.animateImage ? slideInFromRight : "none")} 1s
     ease;
@@ -102,8 +103,9 @@ function Firstpage() {
     <Introbox>
       <Myintro>
         <IntroText animateText={animateText}>
-          안 녕 하 세 요, <br />
-          <br />정 유 진 입 니 다.
+          H e l l o, <br />
+          <br />
+          I'm Yujin Jeong!
         </IntroText>
         {animateImage && <IntroImage />}
       </Myintro>
